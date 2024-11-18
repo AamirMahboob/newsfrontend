@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Client from './client/Client'
 import AdminLayout from './layouts/AdminLayout';
 import AdminTestemoinal from './admin/AdminTestimonial';
-import Signin from './admin/Signin';
+import AdminSignin from './admin/AdminSignin'
 import AdminHero from './admin/AdminHero';
 import Skills from './admin/Skills';
 import Aboutme from './admin/Aboutme';
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/admin/signin',  // `/admin/signin`
-    element: <Signin />,  // Admin sign-in page
+    element: <AdminSignin />,  // Admin sign-in page
   },
   {
     path: '/admin',
