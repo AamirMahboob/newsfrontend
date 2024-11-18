@@ -2,7 +2,7 @@ import React from 'react'
 
 const Filtered = () => {
   return (
-    <div>filtered</div>
+    <div>Filtered</div>
   )
 }
 
