@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
-import Client from './client/client';
+import Client from './client/Client'
 import AdminLayout from './layouts/AdminLayout';
 import Dashboard from './admin/dashboard';
-import Testimonial from './components/Testimonial';
 import AdminTestemoinal from './admin/AdminTestimonial';
 import Signin from './admin/signin';
 import AdminHero from './admin/AdminHero';
