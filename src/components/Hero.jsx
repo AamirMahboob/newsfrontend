@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Tabs, Tab, Box } from "@mui/material";
 import All from "./newscomps/alljazeera/All";
+import FilteredData from "./newscomps/alljazeera/FilteredData";
 
 const Hero = () => {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -19,8 +20,7 @@ const Hero = () => {
     ) : null;
   };
 
-  // Example components for each tab
-  const FilteredData = () => { return <h1>sdfsdfsd</h1>}
+
 
   return (
     <Box sx={{ width: "100%",marginTop:"100px", bgcolor: "background.paper" }}>
@@ -33,7 +33,7 @@ const Hero = () => {
         indicatorColor="primary"
       >
         <Tab label="All" />
-        <Tab label="Filtered" />
+        <Tab label="Filtered Data" />
          
       </Tabs>
 
