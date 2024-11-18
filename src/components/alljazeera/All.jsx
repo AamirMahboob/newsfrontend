@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Grid } from "@mui/material";
-import NewsCard from "../NewsCard";
+import NewsCard from "../newscomps/NewsCard";
 import axios from "axios";
 
 const All = () => {

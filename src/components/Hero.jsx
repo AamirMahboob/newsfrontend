@@ -1,8 +1,8 @@
  
 import React, { useState } from "react";
 import { Tabs, Tab, Box } from "@mui/material";
-import All from "./newscomps/alljazeera/All";
-import FilteredData from "./newscomps/alljazeera/FilteredData";
+import All from "./alljazeera/All";
+import FilteredData from "./alljazeera/FilteredData";
 
 const Hero = () => {
   const [selectedTab, setSelectedTab] = useState(0);
