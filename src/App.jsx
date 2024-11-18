@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Client from './client/Client'
 import AdminLayout from './layouts/AdminLayout';
-import Dashboard from './admin/dashboard';
+import Dashboard from './admin/Dashboard';
 import AdminTestemoinal from './admin/AdminTestimonial';
-import Signin from './admin/signin';
+import Signin from './admin/Signin';
 import AdminHero from './admin/AdminHero';
-import AdminSkills from './admin/skills';
+import Skills from './admin/Skills';
 import Aboutme from './admin/Aboutme';
 
 const router = createBrowserRouter([
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'skills',  // `/admin/settings`
-        element: <AdminSkills />,
+        element: <Skills />,
       },
       {
         path: 'aboutme',  // `/admin/settings`

@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@mui/material/Container";
 
-const AdminSkills = () => {
+const Skills = () => {
   return (
     <Container maxWidth="lg">
       <Box>Skills</Box>
@@ -10,4 +10,4 @@ const AdminSkills = () => {
   );
 };
 
-export default AdminSkills;
+export default Skills;
