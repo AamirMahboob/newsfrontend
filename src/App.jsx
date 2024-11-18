@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Client from './client/Client'
 import AdminLayout from './layouts/AdminLayout';
-import Dashboard from './admin/Dashboard';
 import AdminTestemoinal from './admin/AdminTestimonial';
 import Signin from './admin/Signin';
 import AdminHero from './admin/AdminHero';
 import Skills from './admin/Skills';
 import Aboutme from './admin/Aboutme';
+import AdminDashboard from './admin/AdminDashboard';
+ 
 
 const router = createBrowserRouter([
   {
@@ -21,11 +22,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/admin',
-    element: <AdminLayout />,  
+    element: <AdminLayout />,
     children: [
       {
         path: 'dashboard',    
-        element: <Dashboard />,
+        element: <AdminDashboard />,
       },
       {
         path: 'hero',  
