@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   // Example components for each tab
-  const Filtered = () => { return <h1>sdfsdfsd</h1>}
+  const FilteredData = () => { return <h1>sdfsdfsd</h1>}
 
   return (
     <Box sx={{ width: "100%",marginTop:"100px", bgcolor: "background.paper" }}>
@@ -42,7 +42,7 @@ const Hero = () => {
         <All />
       </TabContent>
       <TabContent index={1}>
-        <Filtered />
+        <FilteredData />
       </TabContent>
        
     </Box>
