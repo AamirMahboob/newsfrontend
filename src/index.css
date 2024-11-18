@@ -1,0 +1,15 @@
+@keyframes borderAnimation {
+    0% {
+      border-color: #0e66ff;
+    }
+    33% {
+      border-color: white;
+    }
+    66% {
+      border-color: #0a101a;
+    }
+    100% {
+      border-color: #0a101a;
+    }
+  }
+  
